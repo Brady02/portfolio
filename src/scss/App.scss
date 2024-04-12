@@ -1,0 +1,82 @@
+html,body {
+    margin: 0;
+    padding: 0;
+}
+
+.name-page {
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+    width: 100%;
+    display: flex;
+
+
+    .name-cont {
+        place-self: end;
+        margin: 0% 0% 2% 3%;
+        display: flex;
+        flex-direction: column;
+        align-content: flex-end;
+
+
+
+        .hi {
+            font-family:Georgia, 'Times New Roman', Times, serif;
+            font-size: 3vh;
+            margin: 0px;
+            margin-bottom: 3%;
+            padding: 0px;
+            color: #535353;
+        }
+
+        .name {
+            font-size: 22vh;
+            font-family: "Bebas Neue", sans-serif;
+            font-weight: lighter;
+            margin: 0px;
+            padding: 0px;
+            line-height: 19vh;
+        }
+    }
+}
+
+.title-page {
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    background: #151515;
+
+
+    .title-cont {
+        place-self: end;
+        margin: 0% 0% 2% 3%;
+        display: flex;
+        flex-direction: column;
+        align-content: flex-end;
+
+
+
+        .hi2 {
+            font-family:Georgia, 'Times New Roman', Times, serif;
+            font-size: 3vh;
+            margin: 0px;
+            margin-bottom: 3%;
+            padding: 0px;
+            color:#7D7D7D;
+        }
+
+        .title {
+            font-size: 22vh;
+            font-family: "Bebas Neue", sans-serif;
+            font-weight: lighter;
+            margin: 0px;
+            padding: 0px;
+            line-height: 19vh;
+            color: #9A9A9A;
+        }
+    }
+}
+
+
